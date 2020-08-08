@@ -1,6 +1,5 @@
 import os
 
-
 image_files = []
 os.chdir(os.path.join("data", "obj"))
 for filename in os.listdir(os.getcwd()):
